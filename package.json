@@ -2,7 +2,6 @@
   "name": "intro-section-dropdown-menu",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mikej321.github.io/intro-section-dropdown-menu/",
   "type": "module",
   "scripts": {
     "dev": "vite",
