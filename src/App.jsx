@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import heroImgMobile from '../public/image-hero-mobile.png'
+import heroImgDesktop from '../public/image-hero-desktop.png'
 
 const Nav = ({ handleClick, handleHeaderLink }) => {
 
@@ -87,8 +89,8 @@ const Hero = () => {
   return (
     <div className="hero_container">
       <picture>
-        <source srcSet="./public/image-hero-desktop.png" media="(min-width: 1000px)" type="image/png" />
-        <img className="hero_img" src="./public/image-hero-mobile.png" alt="" />
+        <source srcSet={heroImgDesktop} media="(min-width: 1000px)" type="image/png" />
+        <img className="hero_img" src={heroImgMobile} alt="" />
       </picture>
     </div>
   )
