@@ -89,8 +89,8 @@ const Hero = () => {
   return (
     <div className="hero_container">
       <picture>
-        <source srcSet="./src/images/image-hero-desktop.png" media="(min-width: 1000px)" type="image/png" />
-        <img className="hero_img" src="./src/images/image-hero-mobile.png" alt="" />
+        <source srcSet="./images/image-hero-desktop.png" media="(min-width: 1000px)" type="image/png" />
+        <img className="hero_img" src="./images/image-hero-mobile.png" alt="" />
       </picture>
     </div>
   )
