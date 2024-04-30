@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 const Nav = ({ handleClick, handleHeaderLink }) => {
@@ -89,8 +87,8 @@ const Hero = () => {
   return (
     <div className="hero_container">
       <picture>
-        <source srcSet="./images/image-hero-desktop.png" media="(min-width: 1000px)" type="image/png" />
-        <img className="hero_img" src="./images/image-hero-mobile.png" alt="" />
+        <source srcSet="./public/image-hero-desktop.png" media="(min-width: 1000px)" type="image/png" />
+        <img className="hero_img" src="./public/image-hero-mobile.png" alt="" />
       </picture>
     </div>
   )
